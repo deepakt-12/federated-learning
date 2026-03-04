@@ -1,0 +1,13 @@
+DATA_PATH = "diabetes.csv"
+TARGET_COLUMN = "Outcome"
+TEST_SIZE = 0.2
+RANDOM_STATE = 42
+NUM_HOSPITALS = 3
+
+DATASET_DIR = "dataset"
+TEST_FILE = "test_set.csv"
+HOSPITAL_FILE_PATTERN = "hospital_{}.csv"   
+SERVER_ADDRESS = "127.0.0.1:8080"
+NUM_ROUNDS = 15
+LOCAL_EPOCHS = 3
+BATCH_SIZE = 32
