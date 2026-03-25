@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "<string>", line 3, in <module>
+    compile(open('app.py', encoding='utf-8').read(), 'app.py', 'exec')
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "app.py", line 993
+    '''
+    ^
+SyntaxError: unterminated triple-quoted string literal (detected at line 1516)
